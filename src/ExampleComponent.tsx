@@ -352,11 +352,7 @@ export const ExampleComponent: React.FC = () => {
               Done: {dataMock.filter((i) => i.status === "DONE").length}
             </Tag>
           </div>
-          <Button
-            type="primary"
-            onClick={() => setShowModal(true)}
-            id="button-add"
-          >
+          <Button type="primary" onClick={() => setShowModal(true)}>
             Create New Task
           </Button>
         </div>
